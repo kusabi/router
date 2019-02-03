@@ -1,0 +1,16 @@
+{
+    "name": "kusabi/router",
+    "description": "A router library for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Harvey",
+            "email": "kusabi.software@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":"~7.2"
+    }
+}
