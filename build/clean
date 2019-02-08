@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+file="./vendor/bin/php-cs-fixer"
+if [ ! -f ${file} ]; then
+   composer update
+fi
+${file} fix

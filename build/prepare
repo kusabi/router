@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+directory="$(dirname "$0")"
+
+source "$directory/clean"
+source "$directory/test"
+source "$directory/validate"

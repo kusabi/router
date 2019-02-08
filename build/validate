@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+file="./vendor/bin/phan"
+if [ ! -f ${file} ]; then
+   composer update
+fi
+${file}
