@@ -19,5 +19,10 @@
         "friendsofphp/php-cs-fixer": "^2.14",
         "phan/phan": "^1.2",
         "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kusabi\\Router\\": "src/"
+        }
     }
 }
